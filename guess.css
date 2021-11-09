@@ -1,0 +1,117 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+.cont{
+   background-color: black;
+    font-family: 'Dongle', sans-serif;
+}
+.head{
+    display: flex;
+}
+.guess_text{
+    margin-left: 566px;
+}
+.ans{
+    width: 100px;
+    height: 200px;
+    position: inherit;
+    margin-top: 5px;
+    margin-left: 72px;
+    font-size: 150px;
+    color:white;
+}
+.checked{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 170px;
+}
+.guess_ans{
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+.half1{
+    width: 200px;
+    height: 200px;
+    border-radius:100px ;
+    background-color: #583B67;
+    align-items: center;
+    justify-content: centre;
+}
+
+
+h1{
+    text-align: center;
+    color: #02D46C;
+    margin-top: 0px;
+    font-size: 100px;
+    margin-left: 250px;
+    margin-bottom: 0px;
+}
+.container{
+   
+    width: 1000px;
+    height: 280px;
+    margin: auto;
+    justify-content: center;
+}
+.informations{
+    display: flex;
+    justify-content: start;
+    margin-top: 80px;
+}
+#attempts, #highscore ,#info
+{
+    color: #02D46C;
+    font-size: 40px;
+    
+}
+#attempts,#highscore{
+    margin-left: 20px;
+}
+#info{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#guess{
+    width: 90px;
+    height: 45px;
+    background-color: #583B67;
+    color: white;
+    font-size: 40px;
+    margin-left: 284px;
+    display: block;
+}
+#check{
+    
+    width: 90px;
+    height: 45px;
+    font-size: 25px;
+   background-color:#583B67 ;
+   color: white;
+    margin-top: px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: 'Dongle', sans-serif;
+    border-radius: 20px;
+    padding: 0px 2px 0px 2px;
+}
+p{
+    color: #BCCC9A; 
+    font-size: 40px;
+    margin: 0px;
+    color: #02D46C;
+}
+#again{
+    width:200px ;
+    height: 50px;
+    color: #ffffff; 
+    background-color:#583B67 ;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-family: 'Dongle', sans-serif;
+    border-radius: 20px;
+    padding: 0px 20px 0px 20px;
+}
